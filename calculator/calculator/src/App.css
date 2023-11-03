@@ -16,24 +16,16 @@ p{
   align-items: center;
   background-color:#E3DAC9;
   border-radius: 20px;
-  
-  
+  padding: 10px;
 }
 .calculator-screen{
-  margin: 20px;
+  border-radius: 20px;
   font-family: "DS-digital";
+  font-size: 3em;
   color: #4AF626;
   background-color: #1a1a1a;
   text-align: right;
   
-}
-.calculator-keyboard{
-  margin: 20px;
-  margin: auto;
-  display: grid;
-  gap: 5px;
-  grid-template-columns: 25% 25% 25% 25% ;
-  grid-template-rows: 20% 20% 20% 20% 20%;
 }
 
 .logo {
