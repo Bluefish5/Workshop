@@ -8,14 +8,19 @@
 p{
   margin: 5px;
 }
-
+.mind{
+  color: red;
+  filter: blur(0.5px);
+}
 .main-calculator{
+  align-items: center;
   background-color:#E3DAC9;
-  padding: 20px;
   border-radius: 20px;
+  
   
 }
 .calculator-screen{
+  margin: 20px;
   font-family: "DS-digital";
   color: #4AF626;
   background-color: #1a1a1a;
@@ -23,6 +28,7 @@ p{
   
 }
 .calculator-keyboard{
+  margin: 20px;
   margin: auto;
   display: grid;
   gap: 5px;
