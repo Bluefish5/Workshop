@@ -5,6 +5,31 @@
   text-align: center;
 }
 
+p{
+  margin: 5px;
+}
+
+.main-calculator{
+  background-color:#E3DAC9;
+  padding: 20px;
+  border-radius: 20px;
+  
+}
+.calculator-screen{
+  font-family: "DS-digital";
+  color: #4AF626;
+  background-color: #1a1a1a;
+  text-align: right;
+  
+}
+.calculator-keyboard{
+  margin: auto;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 25% 25% 25% 25% ;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -36,6 +61,7 @@
 .card {
   padding: 2em;
 }
+
 
 .read-the-docs {
   color: #888;
