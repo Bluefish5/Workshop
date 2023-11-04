@@ -53,6 +53,7 @@ function App() {
             
           </div>
         </div>
+        <div className='calculator-shadow'></div>
     </>
   )
 }

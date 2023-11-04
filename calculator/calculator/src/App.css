@@ -13,19 +13,41 @@ p{
   filter: blur(0.5px);
 }
 .main-calculator{
+  box-shadow: inset 0px 0px 10px 0px  black; 
+  width: 260px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   align-items: center;
   background-color:#E3DAC9;
   border-radius: 20px;
   padding: 10px;
 }
+.calculator-shadow{
+  border-radius: 20px;
+  background-color: #1a1a1a;
+  width: 290px;
+  height: 340px;
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 5px;
+  margin-top: 5px;
+  
+}
 .calculator-screen{
   border-radius: 20px;
   font-family: "DS-digital";
   font-size: 3em;
-  color: #4AF626;
+  color: #00FF41;
   background-color: #1a1a1a;
   text-align: right;
-  
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  filter: blur(0.5px);
+  filter: ;
 }
 
 .logo {
