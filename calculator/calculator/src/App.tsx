@@ -7,7 +7,7 @@ function App() {
   //const [count, setCount] = useState(0)
 
   return (
-      <>
+      <div className='background'>
         {/* <span className='mind'>one day or day one</span> */}
         <div className='main-calculator'>
           <div className='calculator-screen'>
@@ -54,7 +54,7 @@ function App() {
           </div>
         </div>
         <div className='calculator-shadow'></div>
-    </>
+    </div>
   )
 }
 
